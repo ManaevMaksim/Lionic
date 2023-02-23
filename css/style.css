@@ -336,7 +336,7 @@ body {
 }
 
 .services__items {
-    gap: 30px;
+    gap: var(--gap);
     flex-wrap: wrap;
 }
 
@@ -346,6 +346,7 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
+    text-align: center;
     color: #1C1C1C;
     transition: color 0.3s ease-in-out;
 }
@@ -368,7 +369,7 @@ body {
 
 .articles-list {
     flex-wrap: wrap;
-    gap: 30px;
+    gap: var(--gap);
 }
 
 .articles-item {
@@ -861,4 +862,8 @@ justify-content: flex-end;
 
 .footer-link-path {
     transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
+}
+
+.burger {
+    display: none;
 }
